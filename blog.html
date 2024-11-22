@@ -29,11 +29,59 @@
     <meta property="og:sitename" content="/">
     <link rel="shortcut icon" type="image/png" href="">
 
-
 </head>
 
 <body>
-    <div class="d-app langding-homepage">
+    <!-- style page blog & search -->
+    <style>
+        @media (min-width: 1025px) {
+            #header {
+                position: relative;
+                top: 0;
+                background: #E60023;
+                width: 100%;
+                border-radius: 0;
+                padding: 60px 0;
+            }
+
+            #header .container {
+                width: 90%;
+                background: #fff;
+                border-radius: 100px;
+            }
+        }
+    </style>
+    <div class="pc-block-show hidden-sm hidden-xs">
+        <header id="header">
+            <div class="container">
+                <div class="header-left">
+                    <div class="logo">
+                        <a class="flex item-center gap-16" href="/" title="Home page">
+                            <h1 class="brand">Booking </h1>
+                            <img src="/templates/images/pc/logo.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <form class="keyword-search keyword-search-main">
+                        <input type="text" placeholder="Search" required="" value="">
+                    </form>
+                </div>
+                <div class="header-right">
+                    <div class="username">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+                            <circle cx="16.5" cy="16.5" r="16.5" fill="#F4F4F4" />
+                            <path
+                                d="M15.6777 33.0002C15.1725 32.9446 14.6664 32.895 14.162 32.8319C12.275 32.597 10.4888 32.0415 8.81131 31.1838C6.13988 29.8169 4.01196 27.8743 2.39536 25.4031C2.15969 25.042 2.13448 24.7196 2.33449 24.3307C3.7989 21.4816 6.11292 19.6585 9.30351 18.8833C9.55569 18.8219 9.81397 18.7873 10.0679 18.7352C10.5705 18.6308 11.0027 18.7671 11.4166 19.05C13.0646 20.1761 14.9072 20.6786 16.9169 20.5928C18.4439 20.528 19.9136 20.1694 21.1432 19.2957C22.0632 18.6426 22.9494 18.6704 23.9381 18.9372C26.7321 19.6905 28.8401 21.3015 30.3219 23.6995C30.9532 24.7221 30.9741 24.7381 30.2958 25.7271C28.627 28.1605 26.46 30.0635 23.7433 31.3581C21.7589 32.3033 19.6614 32.8403 17.4517 32.959C17.3804 32.9632 17.3108 32.9859 17.2395 33.0002C16.7195 33.0002 16.1986 33.0002 15.6777 33.0002Z"
+                                fill="#B8B8B8" />
+                            <path
+                                d="M16.4907 18.7244C12.2885 18.7236 8.81123 15.2217 8.82327 11.0022C8.83531 6.77615 12.2789 3.31219 16.4802 3.30008C20.6824 3.28797 24.1548 6.77212 24.1605 11.0054C24.1661 15.2314 20.6952 18.7253 16.4907 18.7244Z"
+                                fill="#B8B8B8" />
+                        </svg>
+                        <span>Username</span>
+                    </div>
+                </div>
+            </div>
+        </header>
         <main>
             <div class="page-block pt-block">
                 <div class="blog-page-article">
@@ -44,7 +92,7 @@
                         </div>
                         <div class="wrapper_item_reviews_box">
                             <div class="slider_albums_carousel-blog">
-                                <div class="item_albums text-center">
+                                <div class="item_albums text-center mb-0 ">
                                     <div class="item">
                                         <a href="">
                                             <img src="/templates/images/item_album.png" alt="item_album">
@@ -55,7 +103,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="item_albums text-center">
+                                <div class="item_albums text-center mb-0 ">
                                     <div class="item">
                                         <a href="">
                                             <img src="/templates/images/item_album.png" alt="item_album">
@@ -66,7 +114,91 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="item_albums text-center">
+                                <div class="item_albums text-center mb-0 ">
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="/templates/images/item_album.png" alt="item_album">
+                                            <div class="text_image_albums">
+                                                <h3>Title</h3>
+                                                <p>sample text sample text</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item_albums text-center mb-0 ">
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="/templates/images/item_album.png" alt="item_album">
+                                            <div class="text_image_albums">
+                                                <h3>Title</h3>
+                                                <p>sample text sample text</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item_albums text-center mb-0 ">
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="/templates/images/item_album.png" alt="item_album">
+                                            <div class="text_image_albums">
+                                                <h3>Title</h3>
+                                                <p>sample text sample text</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item_albums text-center mb-0 ">
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="/templates/images/item_album.png" alt="item_album">
+                                            <div class="text_image_albums">
+                                                <h3>Title</h3>
+                                                <p>sample text sample text</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="d-app langding-homepage hidden-md hidden-lg">
+        <main>
+            <div class="page-block pt-block">
+                <div class="blog-page-article">
+                    <div class="container">
+                        <div class="title_desception flex item-center justify-between">
+                            <h1 class="hidden">blog</h1>
+                            <h2>Blog</h2>
+                        </div>
+                        <div class="wrapper_item_reviews_box">
+                            <div class="slider_albums_carousel-blog">
+                                <div class="item_albums text-center mb-0 ">
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="/templates/images/item_album.png" alt="item_album">
+                                            <div class="text_image_albums">
+                                                <h3>Title</h3>
+                                                <p>sample text sample text</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item_albums text-center mb-0 ">
+                                    <div class="item">
+                                        <a href="">
+                                            <img src="/templates/images/item_album.png" alt="item_album">
+                                            <div class="text_image_albums">
+                                                <h3>Title</h3>
+                                                <p>sample text sample text</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item_albums text-center mb-0 ">
                                     <div class="item">
                                         <a href="">
                                             <img src="/templates/images/item_album.png" alt="item_album">

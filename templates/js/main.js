@@ -19,7 +19,7 @@ $(document).ready(function () {
         items: 1,
         dots: false,
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         nav: false,
         navText: [
@@ -35,7 +35,7 @@ $(document).ready(function () {
         items: 2,
         dots: false,
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         nav: false,
         navText: [
@@ -44,6 +44,33 @@ $(document).ready(function () {
         ],
         smartSpeed: 650,
         margin: 10,
+        stagePadding: 0,
+    });
+
+    $(".slider-banner-owl").owlCarousel({
+        items: 1,
+        dots: true,
+        loop: true,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        smartSpeed: 650,
+        margin: 10,
+        stagePadding: 0,
+    });
+
+    $(".slider_reivew_carousel-pc").owlCarousel({
+        items: 3,
+        dots: false,
+        loop: true,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        nav: false,
+        navText: [
+            '<img src="/templates/images/btn_characteristic.png" alt="btn_characteristic">',
+            '<img src="/templates/images/btn_characteristic.png" alt="btn_characteristic">',
+        ],
+        smartSpeed: 650,
+        margin: 15,
         stagePadding: 0,
     });
 
