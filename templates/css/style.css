@@ -43,7 +43,7 @@ a:active {
   --font-family-LINESeedKR-Bd: "LINESeedKR-Bd";
   --font-family-LINESeedKR-Th: "LINESeedKR-Th";
   --font-family-LINESeedKR-Rg: "LINESeedKR-Rg";
-  --width-screen: 480px
+  --width-screen: 480px;
 }
 
 body {
@@ -108,10 +108,8 @@ input {
   position: relative;
   height: 100%;
   min-height: 100vh;
-  box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 }
-
-
 
 #header {
   position: sticky;
@@ -170,7 +168,7 @@ input {
   padding-left: 32px;
   padding-right: 12px;
   font-weight: 500;
-  background: #EEE;
+  background: #eee;
 }
 
 @media (max-width: 1024px) {
@@ -204,7 +202,11 @@ main {
 
 .section_1 .item .abs-text-charactor {
   position: absolute;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -6.99%, rgba(0, 0, 0, 0.98) 116.5%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) -6.99%,
+    rgba(0, 0, 0, 0.98) 116.5%
+  );
   text-transform: uppercase;
   left: 0;
   bottom: 0;
@@ -229,8 +231,8 @@ main {
   width: 100px;
   height: 85px;
   border-radius: 6px;
-  background: #FBFBFB;
-  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.20);
+  background: #fbfbfb;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,7 +286,11 @@ main {
 .item_reviews_country .item .abs_text_image {
   position: absolute;
   border-radius: 6px 6px 0px 0px;
-  background: linear-gradient(180deg, rgba(13, 13, 13, 0.80) 0%, rgba(0, 0, 0, 0.00) 75%);
+  background: linear-gradient(
+    180deg,
+    rgba(13, 13, 13, 0.8) 0%,
+    rgba(0, 0, 0, 0) 75%
+  );
   color: #fff;
   top: 0;
   left: 0;
@@ -309,7 +315,7 @@ main {
 .item_reviews_eats .item .abs_text_image_eats {
   position: absolute;
   border-radius: 6px;
-  background: rgba(0, 0, 0, 0.50);
+  background: rgba(0, 0, 0, 0.5);
   color: #fff;
   top: 0;
   left: 0;
@@ -328,8 +334,8 @@ main {
 
 .item_reivew_star {
   border-radius: 6px;
-  background: #FBFBFB;
-  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.20);
+  background: #fbfbfb;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 .item_reivew_star .text_image_review_star {
@@ -421,7 +427,7 @@ main {
 
 .amenities-block-item .item p {
   margin-bottom: 0;
-  color: #0D0D0D;
+  color: #0d0d0d;
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
@@ -452,7 +458,7 @@ main {
 
 .map-important-div .btn-check-map-wrapper .button-location-btn {
   border-radius: 3px;
-  background: #E60023;
+  background: #e60023;
   color: #fff;
   text-align: center;
   font-size: 10px;
@@ -483,7 +489,7 @@ main {
 .information-details-block,
 .wrapper_item_reviews_box_cate_tag {
   padding-bottom: 28px;
-  border-bottom: 3px solid #E6E6E6;
+  border-bottom: 3px solid #e6e6e6;
 }
 
 .slider_albums_carousel-blog .item_albums {
@@ -495,12 +501,11 @@ main {
 
 .list-menu-item-vertical .item {
   border-radius: 10px;
-  background: #FBFBFB;
+  background: #fbfbfb;
   box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
   margin-bottom: 10px;
   overflow: hidden;
 }
-
 
 .list-menu-item-vertical .item a {
   color: #333;
@@ -561,7 +566,7 @@ main {
 
 .form-style-input {
   border-radius: 20px;
-  background: #EEE;
+  background: #eee;
   border: none;
   outline: none;
   box-shadow: unset;
@@ -581,11 +586,11 @@ main {
 
 .btn-filter-tag .btn-filter {
   border-radius: 20px;
-  border: 1px solid #BCBCBC;
-  background: #FFF;
+  border: 1px solid #bcbcbc;
+  background: #fff;
   padding: 4px 19px;
   text-align: center;
-  color: #5C5C5C;
+  color: #5c5c5c;
   line-height: 20px;
   display: inline-block;
   margin-bottom: 7px;
@@ -601,24 +606,24 @@ main {
 
 .btn-filter-tag .btn-filter:nth-child(2) {
   border-radius: 20px;
-  border: 1px solid #E60023;
-  background: #E60023;
-  color: #FFF;
+  border: 1px solid #e60023;
+  background: #e60023;
+  color: #fff;
 }
 
 .btn-filter-tag .btn-filter:nth-child(3),
 .btn-filter-tag .btn-filter:nth-child(4),
 .btn-filter-tag .btn-filter:nth-child(5) {
   border-radius: 20px;
-  border: 1px solid #E60023;
+  border: 1px solid #e60023;
   background: rgba(230, 0, 35, 0.12);
-  color: #E60023;
+  color: #e60023;
 }
 
 .btn-filter-tag .btn-filter:nth-child(6) {
   border-radius: 20px;
-  border: 1px solid #5C5C5C;
-  background: #E6E6E6;
+  border: 1px solid #5c5c5c;
+  background: #e6e6e6;
 }
 
 .btn.active.focus,
@@ -704,7 +709,7 @@ main {
 .slider_albums_carousel .owl-item .item_albums {
   border-radius: 10px;
 
-  background: rgba(0, 0, 0, 0.20);
+  background: rgba(0, 0, 0, 0.2);
   filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
   text-align: center;
 }
@@ -715,7 +720,7 @@ main {
 }
 
 .slider_albums_carousel .owl-item.active .item_albums {
-  background: #FBFBFB;
+  background: #fbfbfb;
   transform: scale(1.1);
 }
 
@@ -754,11 +759,10 @@ main {
 }
 
 @media (min-width: 1025px) {
-
   #header {
     border-radius: 100px;
-    background: #FFF;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
     width: 90%;
     margin: auto;
     position: absolute;
@@ -798,12 +802,12 @@ main {
 
   #header .header-right .username {
     border-radius: 100px;
-    background: #E60023;
+    background: #e60023;
     display: flex;
     align-items: center;
     gap: 16px;
     padding: 12px 26px;
-    color: #FFF;
+    color: #fff;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -820,7 +824,7 @@ main {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.60);
+    background: rgba(0, 0, 0, 0.6);
   }
 
   .slider-banner-owl .item .text-content-slider {
@@ -895,13 +899,13 @@ main {
     position: absolute;
     width: 22px;
     height: 36px;
-    background: #E60023;
+    background: #e60023;
     left: 0;
     top: 9px;
   }
 
   .title_desception p {
-    color: #3A3A3A;
+    color: #3a3a3a;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -946,7 +950,7 @@ main {
 
   .section_5 {
     padding-top: 70px;
-    background: url('../images/pc/bg-top-restaurent.png') no-repeat;
+    background: url("../images/pc/bg-top-restaurent.png") no-repeat;
     background-size: cover;
     margin-bottom: 60px;
   }
@@ -992,8 +996,8 @@ main {
 
   .information_branch .desp_inf {
     margin-top: 0;
-    border-top: 3px solid #E6E6E6;
-    border-bottom: 3px solid #E6E6E6;
+    border-top: 3px solid #e6e6e6;
+    border-bottom: 3px solid #e6e6e6;
     padding: 16px 0;
   }
 
@@ -1016,13 +1020,13 @@ main {
     margin-top: 32px;
     padding-bottom: 32px;
     margin-bottom: 42px;
-    border-bottom: 3px solid #E6E6E6;
+    border-bottom: 3px solid #e6e6e6;
   }
 
   .tag-review-star .item {
     border-radius: 5px;
-    border: 1px solid #B9B9B9;
-    background: #FFF;
+    border: 1px solid #b9b9b9;
+    background: #fff;
     display: flex;
     align-items: center;
     float: left;
@@ -1047,7 +1051,11 @@ main {
     font-size: 20px;
   }
 
-  .menu-details-block .item_reviews_eats-page-details .item .abs_text_image_eats p {
+  .menu-details-block
+    .item_reviews_eats-page-details
+    .item
+    .abs_text_image_eats
+    p {
     font-size: 16px;
   }
 
@@ -1059,8 +1067,8 @@ main {
 
   .amenities-block-item .item {
     border-radius: 5px;
-    border: 1px solid #B9B9B9;
-    background: #FFF;
+    border: 1px solid #b9b9b9;
+    background: #fff;
     display: flex;
     align-items: center;
     float: left;
@@ -1078,8 +1086,8 @@ main {
 
   .side_bar-right {
     border-radius: 10px;
-    background: #FFF;
-    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.10);
+    background: #fff;
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.1);
     padding: 12px 16px;
   }
 
@@ -1108,6 +1116,53 @@ main {
   .thumbnail-block {
     margin-bottom: 40px;
   }
+}
+
+@media (max-width: 1023px) {
+  .banner_cover img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .slider-charactor-owl img {
+    height: 235px;
+    object-fit: cover;
+  }
+  .tag-review-star {
+    display: flex;
+    gap: 6px;
+    flex-flow: wrap;
+    margin-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 3px solid #e6e6e6;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .tag-review-star .item {
+    border-radius: 5px;
+    border: 1px solid #b9b9b9;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    float: left;
+    gap: 6px;
+    padding: 12px 14px;
+  }
+
+  .tag-review-star .item p {
+    margin-bottom: 0;
+  }
+}
+
+.photo-grid-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.photo-grid-list .item img {
+  width: 100%;
 }
 
 .text-white {
